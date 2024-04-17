@@ -4,8 +4,8 @@ public class Car {
 
     public static void main(String[] args) {
         //sayi teker
-        int teker = 5;
-
+        // int teker = 5;
+        byte teker = 5 ;
 
         //sayi direksiyon
         int direksiyon = 1;
@@ -21,8 +21,8 @@ public class Car {
         String marka = "Mercedes";
 
         // sayi model yılı
-        int modelYili = 2024;
-
+        // int modelYili = 2024;
+        short modelYili = 2024 ;
         //yazı renk
         String renk = "Lacivert";
 
