@@ -44,6 +44,7 @@ mvnw.*
 
 ### IntelliJ ###
 .idea/
+.idea
 *.iml
 *.ipr
 *.iws
