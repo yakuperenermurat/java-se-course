@@ -14,6 +14,6 @@ public class AppMain {
         System.out.println("tasitVergi: " + ucak.tasitVergi());
 
         System.out.println("dernekUyeDurumu: " + (ucak.dernekUyeDurumu() ? "EVET" : "HAYIR") );
-        
+
     }
 }
