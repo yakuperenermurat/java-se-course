@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java-003-loops/pom.xml" />
+        <option value="$PROJECT_DIR$/java-005-switch/pom.xml" />
+        <option value="$PROJECT_DIR$/java-007-arrays/pom.xml" />
+        <option value="$PROJECT_DIR$/java-006-methods/pom.xml" />
+        <option value="$PROJECT_DIR$/java-002-variables/pom.xml" />
+        <option value="$PROJECT_DIR$/java-004-if-ifelse/pom.xml" />
+        <option value="$PROJECT_DIR$/java-001-hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/java-009-kompozisyon/pom.xml" />
+        <option value="$PROJECT_DIR$/java-008-class-object/pom.xml" />
+        <option value="$PROJECT_DIR$/java-010-encapsulation/pom.xml" />
+        <option value="$PROJECT_DIR$/java -014-interface-arayuz/pom.xml" />
+        <option value="$PROJECT_DIR$/java-011-inheritance-miras-kalitim/pom.xml" />
+        <option value="$PROJECT_DIR$/java-012-polymorphism-cok-bicimlilik/pom.xml" />
+        <option value="$PROJECT_DIR$/java-013-polymorphism-cok-bicimlilik/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

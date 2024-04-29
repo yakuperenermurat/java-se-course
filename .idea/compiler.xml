@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-005-switch" />
+        <module name="java-003-loops" />
+        <module name="java-001-hello-world" />
+        <module name="java-008-class-object" />
+        <module name="java-011-inheritance-miras-kalitim" />
+        <module name="java-012-polymorphism-cok-bicimlilik" />
+        <module name="java-010-encapsulation" />
+        <module name="java-006-methods" />
+        <module name="java-014-interface-arayuz" />
+        <module name="java-009-kompozisyon" />
+        <module name="java-007-arrays" />
+        <module name="java-002-variables" />
+        <module name="java-004-if-ifelse" />
+        <module name="java-013-polymorphism-cok-bicimlilik" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
