@@ -5,26 +5,26 @@ import com.yakuperenermurat.base.Hayvan;
 import com.yakuperenermurat.veteriner.Kedi;
 import com.yakuperenermurat.veteriner.Kopek;
 import com.yakuperenermurat.veteriner.Kus;
+import com.yakuperenermurat.veteriner.VanKedisi;
 
 public class AppMain {
     public static void main(String[] args) {
 
 
-
-       Kedi kedi = new Kedi();
+        Kedi kedi = new Kedi();
         System.out.println("--------------");
-       Kopek kopek = new Kopek();
+        Kopek kopek = new Kopek();
         System.out.println("---------------");
-       Kus kus = new Kus();
+        Kus kus = new Kus();
 
-       kedi.sesVer();
-       kopek.sesVer();
-       kus.sesVer();
+        kedi.sesVer();
+        kopek.sesVer();
+        kus.sesVer();
 
         System.out.println("--------------");
-        if (kedi instanceof Hayvan){
+        if (kedi instanceof Hayvan) {
             System.out.println("Evet: " + kedi);
-        }else{
+        } else {
             System.out.println("Hayır: " + kedi);
         }
         System.out.println("----------------");
@@ -36,6 +36,32 @@ public class AppMain {
 
         Ayi ayi = new Ayi();
         ayi.sesVer();
+
+        System.out.println("==================");
+
+
+        Hayvan hayvanObj; // Nesne referansı - Nesne demek değildir.
+
+        hayvanObj = new Kedi();
+
+        System.out.println("--------------" + hayvanObj);
+        hayvanObj = new Kopek();
+
+        System.out.println("---------------" + hayvanObj);
+
+        hayvanObj = new Kus();
+        ((Kus) hayvanObj).yemYe();
+
+        System.out.println("---------------" + hayvanObj);
+
+        if(hayvanObj instanceof Hayvan)
+            System.out.println(hayvanObj);
+
+            hayvanObj = new VanKedisi();
+            ((VanKedisi) hayvanObj).yemekYe();
+            System.out.println("---------------" + hayvanObj);
+
+
     }
 
 
