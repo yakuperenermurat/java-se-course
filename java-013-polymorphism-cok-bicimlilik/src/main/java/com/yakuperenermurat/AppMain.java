@@ -13,20 +13,25 @@ public class AppMain {
 
         Kedi kedi = new Kedi();
         System.out.println("--------------");
+
         Kopek kopek = new Kopek();
         System.out.println("---------------");
+
         Kus kus = new Kus();
+        System.out.println("---------------");
 
         kedi.sesVer();
         kopek.sesVer();
         kus.sesVer();
 
         System.out.println("--------------");
+
         if (kedi instanceof Hayvan) {
             System.out.println("Evet: " + kedi);
         } else {
             System.out.println("Hayır: " + kedi);
         }
+
         System.out.println("----------------");
 
         Hayvan hayvan = new Hayvan();
@@ -43,23 +48,38 @@ public class AppMain {
         Hayvan hayvanObj; // Nesne referansı - Nesne demek değildir.
 
         hayvanObj = new Kedi();
+        hayvanObj.hareketeGec();
 
+        hayvanObj = new Kedi();
+        ((Kedi) hayvanObj).hareketeGec();
         System.out.println("--------------" + hayvanObj);
-        hayvanObj = new Kopek();
 
+        hayvanObj = new Kopek();
         System.out.println("---------------" + hayvanObj);
 
         hayvanObj = new Kus();
         ((Kus) hayvanObj).yemYe();
+        System.out.println("---------------" + hayvanObj);
+
+        hayvanObj = new Hayvan();
+
+        if (hayvanObj instanceof Hayvan)
+            System.out.println(hayvanObj);
 
         System.out.println("---------------" + hayvanObj);
 
-        if(hayvanObj instanceof Hayvan)
-            System.out.println(hayvanObj);
+        hayvanObj = new VanKedisi();
+        ((VanKedisi) hayvanObj).yemekYe();
+        System.out.println("---------------" + hayvanObj);
 
-            hayvanObj = new VanKedisi();
-            ((VanKedisi) hayvanObj).yemekYe();
-            System.out.println("---------------" + hayvanObj);
+        Kedi kediObj;
+        kediObj = new VanKedisi();
+        kediObj.sesVer();
+        System.out.println("---------------" + kediObj);
+
+        if (kediObj instanceof Object) {
+            System.out.println(kediObj);
+        }
 
 
     }

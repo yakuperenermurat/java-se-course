@@ -14,4 +14,5 @@ public class Kopek extends Hayvan {
     public void sesVer(){
         System.out.println("Kopek : Hav hav.");
     }
+
 }

@@ -14,4 +14,9 @@ public class Kedi extends Hayvan {
     public void sesVer(){
         System.out.println("Kedi : Miyav.");
     }
+    @Override
+
+    public void hareketeGec (){
+        System.out.println("Kedi : Harekete gecti. ");
+    }
 }
