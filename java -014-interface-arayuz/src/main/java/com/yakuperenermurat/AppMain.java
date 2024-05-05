@@ -27,6 +27,6 @@ public class AppMain {
         Taksi taksi = new Taksi();
         System.out.println("ruhsatDurumu : " + (taksi.ruhsatDurumu(Boolean.FALSE) ? "EVET" : "HAYIR") );
         System.out.println("ehliyetDurumu : " + (taksi.ehliyetDurumu(Boolean.TRUE) ? "EVET" : "HAYIR") );
-        
+
     }
 }
