@@ -2,7 +2,7 @@ package com.yakuperenermurat.kural;
 
 public interface Kanun {
 
-    public int hizSibiri ();
+    public int hizSiniri ();
 
     public String bakimDurumu();
 

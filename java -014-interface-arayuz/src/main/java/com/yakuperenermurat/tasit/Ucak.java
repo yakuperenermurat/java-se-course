@@ -10,7 +10,7 @@ import lombok.*;
 @ToString (callSuper = true)
 public class Ucak extends Arac implements Kanun , HavacikDernegi {
     @Override
-    public int hizSibiri() {
+    public int hizSiniri() {
         return 35_000;
     }
 
@@ -26,11 +26,21 @@ public class Ucak extends Arac implements Kanun , HavacikDernegi {
 
     @Override
     public Boolean dernekUyeDurumu() {
-        return true;
+        return Boolean.TRUE;
     }
 
     @Override
     public int aidat() {
         return 2_000;
+    }
+
+    @Override
+    public boolean vizeDurumu(){
+        return true;
+    }
+
+    @Override
+    public int yolcuKapasitesi(){
+        return 200;
     }
 }

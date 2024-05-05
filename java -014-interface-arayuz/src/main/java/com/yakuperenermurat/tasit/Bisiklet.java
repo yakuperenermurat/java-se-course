@@ -9,7 +9,7 @@ import lombok.*;
 @ToString (callSuper = true)
 public class Bisiklet  extends Arac implements Kanun {
     @Override
-    public int hizSibiri() {
+    public int hizSiniri() {
         return 30;
     }
 

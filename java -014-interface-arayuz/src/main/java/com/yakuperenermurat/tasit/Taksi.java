@@ -10,7 +10,7 @@ import lombok.*;
 @ToString (callSuper = true)
 public class Taksi extends Arac implements Kanun , UlastirmaDairesi {
     @Override
-    public int hizSibiri() {
+    public int hizSiniri() {
         return 120;
     }
 
@@ -25,12 +25,12 @@ public class Taksi extends Arac implements Kanun , UlastirmaDairesi {
     }
 
     @Override
-    public Boolean ruhsatDurumu() {
-        return Boolean.TRUE;
+    public Boolean ruhsatDurumu(Boolean durum) {
+        return durum;
     }
 
     @Override
-    public Boolean ehliyetDurumu() {
-        return Boolean.TRUE;
+    public Boolean ehliyetDurumu(Boolean durum) {
+        return durum;
     }
 }
