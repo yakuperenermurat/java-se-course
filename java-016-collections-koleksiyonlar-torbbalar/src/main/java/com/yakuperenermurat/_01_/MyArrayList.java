@@ -22,6 +22,21 @@ public class MyArrayList {
             myList = new LinkedList<>();
         System.out.println(myList);
         */
+        /*
+        // Kalıp sınıf Personel
+
+       int sira ;
+       String  isim;
+       String soyisim;
+
+       obj1 new  1  -  Eyüp Kaan
+       obj2 new  2  -  Tarık Kamat
+       obj3 new  3  -  Burak Çimtay
+       objListesi =
+        */
+
+
+
         ArrayList<Integer> myList1 = new ArrayList<>();
 
         myList1.add(10);   // index 0
@@ -31,7 +46,7 @@ public class MyArrayList {
         myList1.add(7);   // index 4
         myList1.add(7);   // index  5
         myList1.add(null);   // index 6
-
+        
         System.out.println("Liste1 elemanları : " + myList1);
 
         System.out.println("----------------");
