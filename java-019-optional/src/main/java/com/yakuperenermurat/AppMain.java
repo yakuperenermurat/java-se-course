@@ -94,7 +94,7 @@ public class AppMain {
         }else {
             System.out.println("Dizi elemanı dolu: " + myArray3[9]);
         }
-        
+
 
 }
 }
